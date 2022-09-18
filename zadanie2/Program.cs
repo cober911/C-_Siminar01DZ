@@ -11,6 +11,7 @@ int num2 = int.Parse(Console.ReadLine());
 
 if(num1>num2)
 Console.WriteLine($"Число {num1} больше числа {num2}");
-else
+else if(num1<num2)
 Console.WriteLine($"Число {num2} больше числа {num1}");
-
+else
+Console.WriteLine("Числа равны");
